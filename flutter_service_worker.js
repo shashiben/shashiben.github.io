@@ -29,10 +29,9 @@ const RESOURCES = {
 "assets/packages/flutter_icons/fonts/weathericons.ttf": "4618f0de2a818e7ad3fe880e0b74d04a",
 "assets/packages/flutter_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "736b5dee955227df18d42fd4eb84c398",
-"/": "736b5dee955227df18d42fd4eb84c398",
+"icons/avatar.png": "9d159ce201cf6dd8eeb72d305ee891dd",
+"index.html": "f99864b02029d512fa3fe8d1434f277b",
+"/": "f99864b02029d512fa3fe8d1434f277b",
 "main.dart.js": "0b160ffb4ff4d1c5965ad972ba207fe8",
 "manifest.json": "5a2c0526f1fe73e6f211bc7a9d15c210",
 "version.json": "426313f2f3133c2f20415344c4a22df3"

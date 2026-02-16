@@ -1,20 +1,15 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var C,B={dP:function dP(d,e,f,g,h){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
+aAf(d,e,f,g){return new A.ur(f,e,g,d)},
+ur:function ur(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
-_.d=g
-_.e=h}},A
-C=c[0]
-B=a.updateHolder(c[16],B)
-A=c[49]
-B.dP.prototype={}
+_.d=g}}
+B=c[0]
+A=a.updateHolder(c[11],A)
+A.ur.prototype={}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(B.dP,C.n)})();(function constants(){A.Ap=new B.dP("spot_award_sep_2024","Spot Award September 2024",null,"Sep 2024",null)
-A.Aq=new B.dP("spot_award_oct_2021","Spot Award","Webknot Technologies","Oct 2021","Awarded for exceptional performance in recognized times on multiple projects at Webknot Technologies Pvt Ltd, Bengaluru.")
-A.Ar=new B.dP("spot_award_betsol_apr_2024","Spot Award from Betsol","Betsol","Apr 2024","Received for exceptional performance for Avaya CCaaS SDK development.")
-A.As=new B.dP("spot_award_sep_2023","Spot Award September 2023","Betsol & Avaya","Sep 2023","Received for exceptional performance with Betsol & Avaya Client.")
-A.At=new B.dP("mvp_oct_2022","MVP OCT 2022","Webknot Technologies","Oct 2022","Received MVP for excellent contribution towards the project U-Space.")
-A.Au=new B.dP("mvp_may_2021","Most Valued Performer","Webknot Technologies","May 2021","Certified as Most Valued Performer for excellent effort contributed to Hubble Project at Webknot Technologies Pvt Ltd, Bengaluru.")
-A.Av=new B.dP("spot_award_jan_2023","Spot Award Jan 2023","Webknot Technologies","Jan 2023","Received Spot award for performance in the project Quadraverse.")})();(function staticFields(){$.atq=C.b([A.Au,A.Aq,A.At,A.Av,A.As,A.Ar,A.Ap],C.R("q<dP>"))})()};
-(a=>{a["kqyuqi8jRxrFlIJz8CvsK7LA2q8="]=a.current})($__dart_deferred_initializers__);
+y(A.ur,B.o)})();(function lazyInitializers(){var y=a.lazyFinal
+y($,"b6H","aDS",()=>B.b([A.aAf("2025-12-25","The Feed Knew How I Felt I hadn\u2019t said anything out loud. No post/story. No search that explained the kind of day I was having. Still, the f\u2026","Dark Side of Analytics","https://shashiben.medium.com/dark-side-of-analytics-e8ae2e262f9c?source=rss-4592bea53881------2"),A.aAf("2022-07-24","Once upon a time in the land of programming wonders, there existed a mighty language called Dart . And in this kingdom, developers sought to\u2026","Dart Server with good practices","https://shashiben.medium.com/dart-server-with-good-practices-f18ed33868e5?source=rss-4592bea53881------2"),A.aAf("2020-06-25","Recently when I want to get data from online I used Rest API and fetched the data from it,but the problem is every time it\u2019s need healthy in\u2026","Flutter cache with hive","https://medium.com/flutter-community/flutter-cache-with-hive-410c3283280c?source=rss-4592bea53881------2")],B.L("l<ur>")))})()};
+(a=>{a["IPJWcEGj8/igHfqoO3TnOBaTHj8="]=a.current})($__dart_deferred_initializers__);

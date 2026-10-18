@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- SEO URLs: https://shashiben.me/ -->
+<html lang="en">
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="index, follow">
+
+  <!-- Primary Meta Tags -->
+  <title>Shashi Kumar — Creative Full-Stack Engineer</title>
+  <meta name="title" content="Shashi Kumar — Creative Full-Stack Engineer">
+  <meta name="description" content="Creative full-stack engineer portfolio showcasing cross-platform apps, web projects and mobile development. Creative Full-Stack Engineer specializing in Dart, MERN and Python. View projects, experience and certifications.">
+  <meta name="keywords" content="Creative Full-Stack Engineer, Shashi Kumar, full-stack engineer portfolio, Dart, Flutter, MERN, Python, cross-platform developer">
+  <meta name="author" content="Shashi Kumar">
+  <meta name="theme-color" content="#0D9488">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shashiben.me/">
+  <meta property="og:title" content="Shashi Kumar — Creative Full-Stack Engineer">
+  <meta property="og:description" content="Creative full-stack engineer portfolio — cross-platform apps, web and mobile. Creative Full-Stack Engineer with Dart, MERN and Python. Projects, experience and certifications.">
+  <meta property="og:image" content="https://shashiben.me/icons/Icon-512.png">
+  <meta property="og:image:alt" content="Shashi Kumar - Creative Full-Stack Engineer">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Shashi Kumar Portfolio">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://shashiben.me/">
+  <meta name="twitter:title" content="Shashi Kumar — Creative Full-Stack Engineer">
+  <meta name="twitter:description" content="Creative full-stack engineer portfolio — cross-platform apps, web and mobile. Creative Full-Stack Engineer. View projects, experience and certifications.">
+  <meta name="twitter:image" content="https://shashiben.me/icons/Icon-512.png">
+  <meta name="twitter:creator" content="@Shashi35744438">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://shashiben.me/">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Shashi Kumar">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://shashiben.me/#person",
+        "name": "Shashi Kumar",
+        "jobTitle": "Creative Full-Stack Engineer",
+        "description": "Creative full-stack engineer specializing in cross-platform apps, web and mobile development. Expertise in Flutter, Dart, MERN and Python.",
+        "url": "https://shashiben.me/",
+        "image": "https://shashiben.me/icons/Icon-512.png",
+        "sameAs": [
+          "https://github.com/shashiben",
+          "https://www.linkedin.com/in/shashi-kumar-58ab1b1a4/",
+          "https://twitter.com/Shashi35744438",
+          "https://medium.com/@ben75930",
+          "https://stackoverflow.com/users/12164724/shashi-msp"
+        ],
+        "knowsAbout": ["Flutter", "Dart", "Mobile Development", "Web Development", "MERN", "Python"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://shashiben.me/#website",
+        "url": "https://shashiben.me/",
+        "name": "Shashi Kumar — Creative Full-Stack Engineer",
+        "description": "Creative full-stack engineer portfolio showcasing projects, experience, certifications and skills in cross-platform development.",
+        "publisher": { "@id": "https://shashiben.me/#person" },
+        "inLanguage": "en-IN"
+      },
+      {
+        "@type": "ProfilePage",
+        "dateModified": "2025-01-01",
+        "mainEntity": { "@id": "https://shashiben.me/#person" },
+        "about": "Creative full-stack engineer portfolio with projects, experience, awards and certifications"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      overflow: hidden;
+    }
+
+    body {
+      background: #050806;
+    }
+
+    #loading {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #050806;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .loader-ring {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 3px solid rgba(57, 255, 20, 0.18);
+      border-top-color: #39FF14;
+      animation: ring-spin 0.9s linear infinite;
+    }
+
+    @keyframes ring-spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <div class="loader-ring" aria-hidden="true"></div>
+  </div>
+
+  <script>
+    (function () {
+      var vv = window.visualViewport;
+      if (!vv) return;
+      var last = 0;
+      var timer = 0;
+      function apply() {
+        var h = Math.round(vv.height);
+        if (h === last) return;
+        last = h;
+        var px = h + 'px';
+        document.documentElement.style.height = px;
+        document.body.style.height = px;
+        window.dispatchEvent(new Event('resize'));
+      }
+      function sync() {
+        window.clearTimeout(timer);
+        timer = window.setTimeout(apply, 80);
+      }
+      vv.addEventListener('resize', sync);
+      vv.addEventListener('scroll', sync);
+      apply();
+    })();
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var loading = document.getElementById('loading');
+      if (!loading) return;
+      loading.style.transition = 'opacity 180ms ease-out';
+      loading.style.opacity = '0';
+      setTimeout(function () { loading.remove(); }, 200);
+    });
+  </script>
+</body>
+</html>
